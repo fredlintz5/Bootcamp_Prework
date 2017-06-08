@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+}
+
+.banner img {
+	max-width: 100%;
+    height: auto;
+}
+
+.videos {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+#video_left {
+	display: inline-block;
+	width: 49%;
+	height: 300px;	
+}
+
+#video_right {
+	display: inline-block;
+	width: 49%;
+	height: 300px;
+	float: right;
+}
+
+@media only screen and (max-width: 300px) {
+    
+    #video_left {
+    display: inline-block;
+	width: 100%;
+	height: 300px;	
+}
+
+	#video_right {
+	display: inline-block;
+	width: 100%;
+	height: 300px;	
+}
+
+
+}
+
+
+
+
+
+
